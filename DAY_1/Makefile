@@ -1,7 +1,7 @@
 CC=gcc
 
 main: main.o mul.o div.o
-	$(CC)-o-main main.o mul.o div.o
+	$(CC) -o main main.o mul.o div.o -larithmetic -larithmat -L.
 main.o: main.c
 	$(CC) -c -o main.o main.c
 mul.o: mul.c
