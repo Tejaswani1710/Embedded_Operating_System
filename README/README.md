@@ -35,7 +35,7 @@
     - give command make
     - execute your main file (./main)
     - create your .h file(touch arith.h)
-        - in .h file write the prototypes of yuor functions.
+        - in .h file write the prototypes of your functions.
     - give command ar crv lib________(libarith.a) and your functions .o files(ar crv libarith.a add.o sub.o)
     - give command ls and see whether your header file or lib is created or not
 - Now you can give that .h and .a file to your friend.

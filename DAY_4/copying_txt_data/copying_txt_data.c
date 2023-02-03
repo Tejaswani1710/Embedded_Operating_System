@@ -9,13 +9,13 @@
 
 int main(int agrc, const char* agrv[])
 {
-    int fd1;
-    int fd2;
-    unsigned char buff[128];
-    ssize_t nbyte_read;
-    ssize_t nbyte_write;
-    int ret_cls1;
-    int ret_cls2;
+    int fd_source = 0;
+    int fd_destination = 0;
+    char buff ;
+    ssize_t nbyte_read = 0;
+    ssize_t nbyte_write = 0;
+    int ret_cls_src = 0;
+    int ret_cls_des = 0;
 
     fd1 = open(agrv[1],O_RDONLY);
 

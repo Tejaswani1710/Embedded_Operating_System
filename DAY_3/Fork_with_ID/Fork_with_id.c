@@ -5,7 +5,7 @@
 int main()
 {
     pid_t id;
-    printf("\n Before Fork....\n");
+    printf("\n Before Fork\n PID:%d\t PPID:%d\n",getpid(),getppid());
     id = fork();
     printf("\n After Fork\n PID:%d\t PPID:%d\n",getpid(),getppid());
 
